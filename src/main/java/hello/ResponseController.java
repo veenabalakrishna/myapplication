@@ -16,7 +16,7 @@ public class ResponseController {
 	    @RequestMapping("/app-details")
 		public SampleResponse Sample(@RequestParam(value = "name", defaultValue = "java") String name) {
 			SampleResponse response = new SampleResponse();
-			response.setVersion("v0.1.0");
+			response.setVersion("v0.1.1");
 			response.setDescription("Pre-interview-codeTest");
 			response.setName("application " +name);
 			return response;

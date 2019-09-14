@@ -1,0 +1,6 @@
+---
+applications:
+- name: myapplication
+  random-route: true
+  memory: 1G
+  path: target/myapp-rest-service-0.1.0.jar

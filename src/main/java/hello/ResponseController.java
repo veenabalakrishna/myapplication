@@ -10,15 +10,15 @@ public class ResponseController {
 
 	    @RequestMapping("/")
 	    public String home() {
-	        return "Hello, World!";
+	        return "Hello World";
 	    }
 
 	    @RequestMapping("/app-details")
 		public SampleResponse Sample(@RequestParam(value = "name", defaultValue = "java") String name) {
 			SampleResponse response = new SampleResponse();
+			response.setName("application " +name);
 			response.setVersion("v0.1.0");
 			response.setDescription("Pre-interview-codeTest");
-			response.setName("application " +name);
 			return response;
 
 	    }

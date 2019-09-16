@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: hello.AppTest
+Test set: hello.myappTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s - in hello.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.031 s - in hello.myappTest
